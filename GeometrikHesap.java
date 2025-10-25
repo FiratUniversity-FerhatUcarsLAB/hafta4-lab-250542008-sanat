@@ -1,6 +1,9 @@
-Ad Soyad:Mustafa Şahingöz
-Öğrenci No:250542008
-
+* Ad Soyad: [Mustafa Şahingöz]
+ * Ogrenci No: [250542008]
+ * Tarih: [25.10.2025]
+ * Aciklama: Gorev 1 - Geometrik Hesaplama
+ * 
+ * Bu program kullanıcıdan dairenin yarıçap bilgisini aır ve bu double sınıfı ile birlikte dairenin alanını,çevrsini.çapını,küre hacmini ve kürenin yüzey alanını hesaplayıp yazdırır. 
 
 
 import  java.util.Scanner;
