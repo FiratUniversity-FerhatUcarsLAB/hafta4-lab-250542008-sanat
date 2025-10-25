@@ -3,7 +3,7 @@ Ad Soyad:Mustafa Şahingöz
 
 
 
-  import  java.util.Scanner;
+import  java.util.Scanner;
 public class GeometrikHesap {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
