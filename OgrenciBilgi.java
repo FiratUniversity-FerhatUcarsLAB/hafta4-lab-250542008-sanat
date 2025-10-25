@@ -1,7 +1,7 @@
 /*
- * Ad Soyad: [ADINIZI BURAYA YAZIN]
- * Ogrenci No: [OGRENCI NUMARANIZI BURAYA YAZIN]
- * Tarih: [TARIHI BURAYA YAZIN]
+ * Ad Soyad: [Mustafa Şahingöz]
+ * Ogrenci No: [250542008]
+ * Tarih: [25.10.2025]
  * Aciklama: Gorev 1 - Ogrenci Bilgi Sistemi
  * 
  * Bu program kullanicidan ogrenci bilgilerini alir ve
@@ -9,52 +9,33 @@
  * Diğer java dosyalarının başında da bu örnek formattaki gibi kısa bilgi giriniz
  */
 
-import java.util.Scanner;
-
-public class OgrenciBilgi {
+public class ÖğrenciBilgi {
     public static void main(String[] args) {
-        // Scanner objesi olusturun
-        
-        
-        // Degisken tanimlamalari
-        // String ad, soyad;
-        // int ogrenciNo, yas;
-        // double gpa;
-        
-        
-        // Kullanicidan bilgileri alin
-        System.out.println("=== OGRENCI BILGI SISTEMI ===");
-        System.out.println();
-        
-        // Ad
-        
-        
-        // Soyad
-        
-        
-        // Ogrenci No
-        
-        
-        // Yas
-        
-        
-        // GPA
-        
-        
-        // Bilgileri ekrana yazdirin
-        System.out.println("\n=== OGRENCI BILGI SISTEMI ===");
-        
-        // COZUMUNUZU BURAYA YAZIN
-        
-        
-        
-        
-        
-        
+        Scanner input = new Scanner(System.in);
+        System.out.print("Adinizi girin");
+        String ad = input.nextLine();
 
-        
-        
-        // Scanner'i kapatin (önemli pratik)
-        
+
+        System.out.print("Soyadi girin");
+        String soyad = input.nextLine();
+
+        System.out.print("Öğrenci numaraznızı girin");
+        String numarazn = input.nextLine();
+
+        System.out.print("Yaşınızı girin");
+        String yas = input.nextLine();
+
+        System.out.println("GPA (0.00-4.00); ");
+        float gpa = input.nextFloat();
+
+        System.out.println("*-*ÖĞRENCİ BİLGİLERİ*-*");
+        System.out.printf("Ad Soyad: %s %s",ad,soyad);
+        System.out.printf("\nÖğrenci No: %d",numarazn );
+        System.out.printf("\nYas: %d",yas);
+        System.out.printf("\nGPA: % .2f",gpa);
+
+
+
+
     }
 }
