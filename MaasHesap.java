@@ -1,8 +1,10 @@
-Ad Soyad:Mustafa Şahingöz
-Öğrenci No:250542008
-
-
-
+* Ad Soyad: [Mustafa Şahingöz]
+ * Ogrenci No: [250542008]
+ * Tarih: [25.10.2025]
+ * Aciklama: Gorev 3 - Maaş Hesaplama
+ * 
+ * Bu program kullanıcıdan gerekli bilgileri alır ve double ifadesi ile mesai ücretini hesaplar daha sonra kesintileri,toplam geliri,adını soyadını,kesinti oranını,saatlik kazancı ekrana yazdırır.
+ */
 
 import java.util.Scanner;
 
